@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-content: center
+}
