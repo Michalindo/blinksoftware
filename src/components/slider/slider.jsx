@@ -16,7 +16,6 @@ function Slider() {
     fetch(`https://api.github.com/users/${nicks[count]}`)
     .then(response => response.json())
     .then(response =>{
-      console.log(response);
       setAvatar(response.avatar_url)
       setIsLoading(false);
     })
