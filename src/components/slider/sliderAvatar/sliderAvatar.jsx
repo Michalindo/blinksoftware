@@ -1,10 +1,10 @@
 import React from 'react';
 import './sliderAvatar.scss'
 
-function sliderAvatar(props) {
+function SliderAvatar(props) {
   return (
-    <div className="avatar" style ={{backgroundImage: `url(${props.avatar})`}}></div>    
-    );
+    <div className="avatar" style={{ backgroundImage: `url(${props.avatar})` }}></div>
+  );
 }
 
-export default sliderAvatar;
+export default SliderAvatar;

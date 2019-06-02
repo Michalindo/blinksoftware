@@ -5,8 +5,8 @@ import './App.scss'
 function App() {
 
   return (
-    <Slider/>
-    );
+    <Slider />
+  );
 }
 
 export default App;
